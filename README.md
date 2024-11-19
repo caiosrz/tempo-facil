@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+A ideia principal do site "Tempo Fácil" é permitir que os usuários consultem as condições climáticas de diferentes cidades ao redor do mundo. Aqui está uma descrição detalhada de como o site funciona:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidade Principal:
+Busca por cidade:
 
-## Available Scripts
+O usuário pode digitar o nome de uma cidade na barra de pesquisa.
+À medida que o usuário digita, o site faz uma busca automática e sugere cidades relacionadas, mostrando o nome da cidade e o país.
+Sugestões de cidades:
 
-In the project directory, you can run:
+As sugestões aparecem em uma lista à medida que o usuário digita o nome da cidade.
+Quando o usuário clica em uma sugestão, a cidade é definida no campo de busca e os dados climáticos dessa cidade são carregados.
+Previsão do tempo:
 
-### `npm start`
+Quando o usuário escolhe uma cidade, o site busca a previsão do tempo dessa cidade, incluindo as temperaturas máximas e mínimas para o dia, além de um ícone representando a condição climática (exemplo: sol, nuvens, chuva, tempestade, etc.).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O ícone e a descrição do clima (como "Céu limpo" ou "Chuva leve") são mostrados na tela.
+Estrutura:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Interface Simples e Intuitiva: A interface é minimalista e fácil de navegar, com um campo de pesquisa bem visível e as informações de clima claras.
+Tecnologia: A aplicação é construída usando React, e ela interage com APIs externas para buscar as informações de clima:
+Geocoding API para buscar as sugestões de cidades.
+Open Meteo API para obter a previsão do tempo das cidades selecionadas.
 
-### `npm test`
+Como Funciona:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O usuário digita o nome de uma cidade no campo de pesquisa.
+O site exibe sugestões de cidades conforme o usuário digita.
+O usuário clica em uma sugestão, e a previsão do tempo é exibida, incluindo a temperatura máxima, mínima e uma descrição com o ícone correspondente ao clima da cidade.
 
-### `npm run build`
+A descrição do clima é mostrada abaixo da previsão, com um ícone representando o clima e uma breve descrição (como "Céu limpo", "Chuva leve", etc.).
+Design:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cores e Layout: O design pode ser ajustado conforme preferências pessoais, mas a proposta é manter o site simples e direto ao ponto, com destaque para as informações climáticas e uma boa experiência de usuário ao consultar as cidades.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse site é uma ótima ferramenta para quem precisa verificar rapidamente as condições climáticas de diferentes locais de forma prática e simples.

@@ -1,3 +1,9 @@
+![image](https://github.com/user-attachments/assets/81065eb3-a49d-40e6-9646-79cf8a2d68c9)
+
+
+
+
+
 A ideia principal do site "Tempo Fácil" é permitir que os usuários consultem as condições climáticas de diferentes cidades ao redor do mundo. Aqui está uma descrição detalhada de como o site funciona:
 
 Funcionalidade Principal:
